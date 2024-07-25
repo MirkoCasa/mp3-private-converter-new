@@ -1,0 +1,21 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    text-align: center;
+    padding: 5px;
+}
+
+.preview img {
+    max-width: 50%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .preview img {
+        max-width: 100%;
+    }
+}

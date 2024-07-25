@@ -1,5 +1,10 @@
-import './button.css';
+import "./button.css";
+import React from "react";
 
-export default function Button({ text }) {
-  return <button className="custom-button">{text}</button>;
+export default function Button({ text, onClick }) {
+  return (
+    <button className="custom-button" onClick={onClick}>
+      {text}
+    </button>
+  );
 }
