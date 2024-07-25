@@ -1,0 +1,15 @@
+.custom-button {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(196, 48, 43);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.custom-button:hover {
+    background-color: rgba(255, 0, 0);
+}
