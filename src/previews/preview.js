@@ -4,7 +4,6 @@ import { download } from "../services/service";
 import "./preview.css";
 
 export default function Preview({ videoInfo }) {
-  const [error, setError] = React.useState(null);
   const [downloading, setDownloading] = React.useState(false);
 
   const handleButtonClick = async () => {
@@ -17,8 +16,6 @@ export default function Preview({ videoInfo }) {
       } finally {
         setDownloading(false);
       }
-    } else {
-      setError("No video information available.");
     }
   };
 
